@@ -10,10 +10,10 @@
 
 Please install [Deno runtime](https://deno.land/) first, and use it with VSCode [Deno extension](https://marketplace.visualstudio.com/items?itemName=axetroy.vscode-deno).
 
-```
-git clone https://github.com/gjuoun/deno-starter.git
+```js
+> git clone https://github.com/gjuoun/deno-starter.git
 
-deno run --allow-net app.ts
+> deno run --allow-net app.ts
 
 ```
 
