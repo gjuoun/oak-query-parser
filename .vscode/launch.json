@@ -12,7 +12,8 @@
       "runtimeExecutable": "deno",
       "runtimeArgs": ["run", "-A", "--inspect-brk"],
       "args": ["${relativeFile}"],
-      "port": 9229
+      "port": 9229,
+      "outputCapture": "std"
     }
   ]
 }
