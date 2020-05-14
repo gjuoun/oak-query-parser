@@ -1,12 +1,15 @@
 ## Query Parser
 
-> A query parameter middleware for oka framework
+> A query parameter parsing middleware for oka framework
 
 ### Usage 
 
-Please install [Deno runtime](https://deno.land/) first, and use it with VSCode [Deno extension](https://marketplace.visualstudio.com/items?itemName=axetroy.vscode-deno).
+```ts
+import {parseQuery} from 'https://raw.githubusercontent.com/gjuoun/query-parser/master/mod.ts'
 
-```
+const app = new Application();
 
+app.use(parseQuery())
 ```
+Then **ctx.request.query** will become available to the server
 
