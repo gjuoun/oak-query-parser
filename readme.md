@@ -5,7 +5,7 @@
 ### Usage 
 
 ```ts
-// import oka framework
+// import oak framework
 import { Application } from "https://deno.land/x/oak/mod.ts";
 // import queryParser
 import {queryParser} from 'https://raw.githubusercontent.com/gjuoun/oak-query-parser/master/mod.ts'
