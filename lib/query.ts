@@ -6,10 +6,9 @@ declare module "https://deno.land/x/oak/mod.ts" {
   }
 }
 
-// let a :IterableIterator
 interface queryParams extends Record<string, string> { }
 
-export function parseQuery(options: any = null) {
+export function queryParser(options: any = null) {
   return function (ctx: Context, next: Function) {
     // if search query exists in url
     if (ctx.request.url.search) {

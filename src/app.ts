@@ -1,8 +1,8 @@
 import { Application, Context } from "https://deno.land/x/oak/mod.ts";
-import { parseQuery } from "../lib/query.ts";
+import { queryParser } from "../lib/query.ts";
 const app = new Application();
 
-app.use(parseQuery());
+app.use(queryParser());
 
 
 app.use(async (ctx) => {

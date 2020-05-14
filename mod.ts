@@ -1,1 +1,1 @@
-export {parseQuery} from './lib/query.ts'
+export {queryParser} from './lib/query.ts'
