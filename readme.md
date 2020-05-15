@@ -1,6 +1,6 @@
 ## Query Parser
 
-> A query parameter parsing middleware for oka framework
+> A query parameter parsing middleware for [oka framework](https://github.com/oakserver/oak)
 
 ### Usage 
 
