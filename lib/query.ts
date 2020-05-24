@@ -22,9 +22,7 @@ export function queryParser(options: any = null) {
         }
       }
       ctx.request.query = queryParams;
-      next();
-    } else {
-      next();
     }
+    next();
   };
 }
